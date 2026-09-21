@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="560" viewBox="0 0 420 560" role="img" aria-label="Calculator app preview">
+  <defs>
+    <filter id="blurA" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40" />
+    </filter>
+    <linearGradient id="eq" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="420" height="560" fill="#09090b" />
+  <ellipse cx="60" cy="60" rx="140" ry="140" fill="#4f46e5" opacity="0.28" filter="url(#blurA)" />
+  <ellipse cx="370" cy="500" rx="140" ry="140" fill="#06b6d4" opacity="0.18" filter="url(#blurA)" />
+
+  <!-- Calculator card -->
+  <rect x="50" y="40" width="320" height="480" rx="32" fill="#18181b" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.5" />
+
+  <!-- Header -->
+  <text x="74" y="76" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" letter-spacing="3" fill="#71717a">CALCULATOR</text>
+  <circle cx="330" cy="72" r="4" fill="#34d399" />
+  <circle cx="330" cy="72" r="8" fill="#34d399" opacity="0.25" />
+
+  <!-- Display -->
+  <rect x="74" y="94" width="272" height="76" rx="16" fill="#000000" fill-opacity="0.5" stroke="#ffffff" stroke-opacity="0.05" />
+  <text x="330" y="142" text-anchor="end" font-family="ui-monospace, monospace" font-size="30" fill="#e0e7ff">9876.5</text>
+
+  <!-- AC / DEL -->
+  <rect x="74" y="186" width="130" height="46" rx="14" fill="#ef4444" fill-opacity="0.1" stroke="#ef4444" stroke-opacity="0.2" />
+  <text x="139" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="600" fill="#f87171">AC</text>
+  <rect x="216" y="186" width="130" height="46" rx="14" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-opacity="0.2" />
+  <text x="281" y="215" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="600" fill="#fbbf24">DEL</text>
+
+  <!-- Keypad -->
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="19" font-weight="600" text-anchor="middle">
+    <!-- Row 1 -->
+    <rect x="74" y="248" width="59" height="54" rx="14" fill="#27272a" />
+    <text x="103.5" y="282" fill="#f4f4f5">7</text>
+    <rect x="145" y="248" width="59" height="54" rx="14" fill="#27272a" />
+    <text x="174.5" y="282" fill="#f4f4f5">8</text>
+    <rect x="216" y="248" width="59" height="54" rx="14" fill="#27272a" />
+    <text x="245.5" y="282" fill="#f4f4f5">9</text>
+    <rect x="287" y="248" width="59" height="54" rx="14" fill="#4f46e5" fill-opacity="0.15" stroke="#6366f1" stroke-opacity="0.2" />
+    <text x="316.5" y="282" fill="#a5b4fc">÷</text>
+
+    <!-- Row 2 -->
+    <rect x="74" y="314" width="59" height="54" rx="14" fill="#27272a" />
+    <text x="103.5" y="348" fill="#f4f4f5">4</text>
+    <rect x="145" y="314" width="59" height="54" rx="14" fill="#27272a" />
+    <text x="174.5" y="348" fill="#f4f4f5">5</text>
+    <rect x="216" y="314" width="59" height="54" rx="14" fill="#27272a" />
+    <text x="245.5" y="348" fill="#f4f4f5">6</text>
+    <rect x="287" y="314" width="59" height="54" rx="14" fill="#4f46e5" fill-opacity="0.15" stroke="#6366f1" stroke-opacity="0.2" />
+    <text x="316.5" y="348" fill="#a5b4fc">×</text>
+
+    <!-- Row 3 -->
+    <rect x="74" y="380" width="59" height="54" rx="14" fill="#27272a" />
+    <text x="103.5" y="414" fill="#f4f4f5">1</text>
+    <rect x="145" y="380" width="59" height="54" rx="14" fill="#27272a" />
+    <text x="174.5" y="414" fill="#f4f4f5">2</text>
+    <rect x="216" y="380" width="59" height="54" rx="14" fill="#27272a" />
+    <text x="245.5" y="414" fill="#f4f4f5">3</text>
+    <rect x="287" y="380" width="59" height="54" rx="14" fill="#4f46e5" fill-opacity="0.15" stroke="#6366f1" stroke-opacity="0.2" />
+    <text x="316.5" y="414" fill="#a5b4fc">−</text>
+
+    <!-- Row 4 -->
+    <rect x="74" y="446" width="59" height="54" rx="14" fill="#27272a" />
+    <text x="103.5" y="480" fill="#f4f4f5">0</text>
+    <rect x="145" y="446" width="59" height="54" rx="14" fill="#27272a" />
+    <text x="174.5" y="480" fill="#f4f4f5">.</text>
+    <rect x="216" y="446" width="59" height="54" rx="14" fill="#4f46e5" fill-opacity="0.15" stroke="#6366f1" stroke-opacity="0.2" />
+    <text x="245.5" y="480" fill="#a5b4fc">+</text>
+    <rect x="287" y="446" width="59" height="54" rx="14" fill="url(#eq)" />
+    <text x="316.5" y="480" fill="#ffffff">=</text>
+  </g>
+</svg>
